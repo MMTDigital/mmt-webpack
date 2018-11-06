@@ -1,0 +1,44 @@
+{
+  "name": "@mmtdigital/webpack",
+  "version": "0.0.1",
+  "description": "A consumable webpack config for MMT Digital projects that is extendable and upgradable",
+  "main": "lib/mmt-webpack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMTDigital/mmt-webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "mmt"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "mmt-webpack": "lib/mmt-webpack.js"
+  },
+  "author": "James Sear",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMTDigital/mmt-webpack/issues"
+  },
+  "homepage": "https://github.com/MMTDigital/mmt-webpack#readme",
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "clean-webpack-plugin": "^0.1.19",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "kleur": "^2.0.2",
+    "pretty-error": "^2.1.1",
+    "webpack": "^4.25.1",
+    "webpack-manifest-plugin": "^2.0.4",
+    "webpack-merge": "^4.1.4",
+    "webpack-messages": "^2.0.3"
+  }
+}
