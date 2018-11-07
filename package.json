@@ -2,11 +2,11 @@
   "name": "@mmtdigital/webpack",
   "version": "0.0.1",
   "description": "A consumable webpack config for MMT Digital projects that is extendable and upgradable",
-  "main": "lib/mmt-webpack.js",
+  "main": "lib/mmt-webpack",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "rollup -c",
-    "dev": "rollup -c -w"
+    "dry-release": "npmpub --dry --verbose --no-release",
+    "release": "npmpub --no-release"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "lib": "lib"
   },
   "bin": {
-    "mmt-webpack": "lib/mmt-webpack.js"
+    "mmt-webpack": "lib/mmt-webpack"
   },
   "author": "James Sear",
   "license": "ISC",
@@ -56,6 +56,10 @@
     "url-loader": "^1.1.2",
     "webpack": "^4.25.1",
     "webpack-manifest-plugin": "^2.0.4",
-    "webpack-merge": "^4.1.4"
+    "webpack-merge": "^4.1.4",
+    "yargs": "^12.0.2"
+  },
+  "devDependencies": {
+    "npmpub": "^4.1.0"
   }
 }
