@@ -1,2 +1,4 @@
 # mmt-webpack
-A consumable webpack config for MMT Digital projects that is extendable and upgradable
+![MMT-Digital](https://img.shields.io/badge/MMT-Digital-red.svg?style=flat-square) 
+
+All documentation for MMT repos and npm packages is located here: http://docs.mmt.digital
