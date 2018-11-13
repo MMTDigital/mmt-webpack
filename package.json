@@ -4,7 +4,6 @@
   "description": "A consumable webpack config and linting package for MMT Digital projects that is extendable and upgradable",
   "main": "lib/mmt-webpack.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dry-release": "npmpub --dry --verbose --no-release",
     "release": "npmpub --no-release"
   },
