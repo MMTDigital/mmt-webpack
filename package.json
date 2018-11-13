@@ -1,5 +1,5 @@
 {
-  "name": "@mmtdigital/webpack",
+  "name": "@mmtdigital/mmt-webpack",
   "version": "0.1.0",
   "description": "A consumable webpack config and linting package for MMT Digital projects that is extendable and upgradable",
   "main": "lib/mmt-webpack.js",
