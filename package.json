@@ -20,7 +20,8 @@
     "lib": "lib"
   },
   "bin": {
-    "mmt-webpack": "lib/mmt-webpack.js"
+    "mmt-webpack": "lib/mmt-webpack.js",
+    "mmt-lint": "lib/mmt-lint.js"
   },
   "author": "James Sear",
   "license": "ISC",
@@ -41,6 +42,7 @@
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.1",
     "eslint": "^5.8.0",
+    "eslint-formatter-pretty": "^2.0.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-node": "^8.0.0",
@@ -66,7 +68,9 @@
     "pretty-error": "^2.1.1",
     "sass-loader": "^7.1.0",
     "sass-resources-loader": "^2.0.0",
+    "standard-engine": "^10.0.0",
     "stylelint": "^9.8.0",
+    "stylelint-formatter-pretty": "^1.0.3",
     "stylelint-webpack-plugin": "^0.10.5",
     "url-loader": "^1.1.2",
     "webpack": "^4.25.1",
